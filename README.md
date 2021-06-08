@@ -87,6 +87,7 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include the group of VMs to be monitored with Beats (in this network 10.0.0.5, 10.0.0.6, and 10.0.0.9, titled "[webservers]" in the file) and the VM that will host the ELK server (in this network 10.2.0.4, titled "[elk]" in the file).
 - Run the playbook, and navigate to port 5601 of the ELK server's public IP to check that the installation worked as expected.
 
+### Sample instructions
 
 To download the playbook from the repository:
 - `curl https://github.com/barrydwood/Project-ELKStack/blob/main/Ansible/filebeat-playbook.yml`
